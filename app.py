@@ -237,7 +237,7 @@ info_alert_text = """
   <strong class="font__weight-semibold">Heads up!</strong> 
   <p class="font__weight-light">
   The GPU memory usage estimation above only show how much memory the model will take on the GPU. It's not the actual memory usage needed to train the model or use it for inference.
-  You can find more information <a href="https://pytorch.org/docs/stable/notes/cuda.html#cuda-memory-management" target="_blank">here</a>.
+  You can find more information <a href="https://amenalahassa.github.io/amenalahassa/posts/model_gpu.html" target="_blank">here</a>.
   </p>
 </div>
 """

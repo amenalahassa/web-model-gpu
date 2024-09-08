@@ -7,7 +7,7 @@ from huggingface_hub import (
 
 def create_and_upload_to_space(files, hf_token, target_space_name):
     # Create the space repository
-    create_repo(name=target_space_name, token=hf_token, repo_type="space", space_sdk="gradio")
+    create_repo(target_space_name, token=hf_token, repo_type="space", space_sdk="gradio")
 
     # Get the full repository name
     repo_name = get_full_repo_name(model_id=target_space_name, token=hf_token)
